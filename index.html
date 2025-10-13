@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>Contact Us Form</title>
+  <title>SYED MUQEET ALI CONTACT US FORM</title>
   <style>
     *{margin:0;padding:0;box-sizing:border-box;}
     body{font-family:Arial, sans-serif;background:#f9fafb;color:#222;}
@@ -47,7 +47,7 @@
 </head>
 <body>
   <div class="container">
-    <h2>Contact Us</h2>
+    <h2>SYED MUQEET ALI CONTACT US FORM</h2>
     <form id="Form">
       <!-- Your Web3Forms Access Key -->
       <input type="hidden" name="access_key" value="e490f8d9-29ea-4e76-b840-cc5d8e0a67e6">
@@ -78,7 +78,8 @@
 
       const formData = new FormData(form);
 
-      statusEl.textContent = "⏳ Sending... your Message for Syed Muqeet Ali";
+      // Updated sending message
+      statusEl.textContent = "⏳ Sending your message for Syed Muqeet Ali...";
       statusEl.style.color = "#128C7E";
 
       try {
@@ -90,7 +91,7 @@
         const result = await response.json();
 
         if (response.ok) {
-          statusEl.textContent = "✅ Message sent successfully!";
+          statusEl.textContent = "✅ Message sent successfully to Syed Muqeet Ali!";
           statusEl.style.color = "green";
           form.reset();
         } else {
@@ -106,4 +107,3 @@
   </script>
 </body>
 </html>
-
